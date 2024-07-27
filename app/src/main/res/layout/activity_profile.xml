@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:background="@drawable/rounded_background"
+        android:elevation="4dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp">
+
+        <ImageView
+            android:id="@+id/avatarImageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/avatar_background"
+            android:scaleType="centerCrop"/>
+
+        <EditText
+            android:id="@+id/fullNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ваше ФИО"
+            android:background="@drawable/edit_text_background"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/uploadAvatarButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Загрузка аватарки"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/updateProfileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Обновление профиля"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/changePasswordButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Смена пароля"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/viewTasksButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Список заявок"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"/>
+    </LinearLayout>
+</ScrollView>

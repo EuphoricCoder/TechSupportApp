@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/descriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:paddingBottom="8dp" />
+
+        <TextView
+            android:id="@+id/roomNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Room Number"
+            android:textSize="16sp"
+            android:textColor="@color/secondaryTextColor"
+            android:paddingBottom="8dp" />
+
+        <Spinner
+            android:id="@+id/statusSpinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/spinner_background"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/changeStatusButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сохранить изменения статуса"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:stateListAnimator="@null"
+            android:elevation="4dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="8dp"
+            android:radius="8dp"/>
+
+        <Button
+            android:id="@+id/viewFileButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Просмотреть файл"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:stateListAnimator="@null"
+            android:elevation="4dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="8dp"
+            android:radius="8dp"/>
+
+        <Button
+            android:id="@+id/chatButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Чат"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:stateListAnimator="@null"
+            android:elevation="4dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="8dp"
+            android:radius="8dp"/>
+
+        <Button
+            android:id="@+id/viewHistoryButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Просмотр истории смены статуса"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:stateListAnimator="@null"
+            android:elevation="4dp"
+            android:layout_gravity="center_horizontal"
+            android:drawablePadding="8dp"
+            android:radius="8dp"/>
+
+        <TextView
+            android:id="@+id/checklistTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Чек-лист"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingTop="16dp"
+            android:paddingBottom="8dp" />
+
+        <ListView
+            android:id="@+id/checklistListView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:divider="@android:color/transparent"
+            android:dividerHeight="8dp"
+            android:background="@drawable/listview_background"
+            android:padding="8dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="16dp"
+            android:clipToPadding="false"/>
+
+        <Button
+            android:id="@+id/saveChecklistButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Сохранить чек-лист"
+            android:background="@color/colorPrimary"
+            android:textColor="@android:color/white"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"
+            android:elevation="4dp"
+            android:stateListAnimator="@null"
+            android:radius="8dp"/>
+    </LinearLayout>
+</ScrollView>

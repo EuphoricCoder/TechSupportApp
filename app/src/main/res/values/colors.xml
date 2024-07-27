@@ -1,0 +1,16 @@
+<resources>
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="inputBackgroundColor">#F1F1F1</color>
+    <color name="colorPrimary">#1E88E5</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorAccent">#42A5F5</color>
+    <color name="primaryTextColor">#FFFFFF</color>
+    <color name="secondaryTextColor">#757575</color>
+    <color name="sentMessageBackground">#BBDEFB</color>
+    <color name="receivedMessageBackground">#E3F2FD</color>
+    <color name="spinnerBackground">#FFFFFF</color>
+    <color name="listViewBackground">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+</resources>
+
+

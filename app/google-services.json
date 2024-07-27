@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "948703143640",
+    "firebase_url": "https://supportapplicati-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "supportapplicati",
+    "storage_bucket": "supportapplicati.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948703143640:android:6c7a3be1396c129aad59ad",
+        "android_client_info": {
+          "package_name": "com.example.supportapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ-n49lmoqg8_mCs8p-trKD6cng0Vojys"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
